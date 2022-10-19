@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body>
+    <!--<form method="get" action="https://google.com/search">get envia para urlPOST envia no corpo do HTML </form>-->
+    <form>
+        <legend>Nome e sobrenome</legend>
+        <input type="text" name=" q" value="" placeholder="Digite seu nome">
+
+        <legend>Digite sua senha</legend>
+        <input type="password" name=" q" value="" placeholder="Digite sua senha">
+
+        
+        <!--campo de texto secreto <input type="hidden" name=" q" value="Nome">-->
+
+        <legend>Digite seu E-mail</legend>
+        <label for="email">Email</label>
+        <input type="email" name="e-mail" placeholder="Digite seu Email">
+
+        <legend>Pesquise</legend>
+        <input type="search" name="nome" placeholder=" Pesquise">
+
+        <legend>Seu telefone</legend>
+        <input type="tel" name="telefone" placeholder="(XX) XXXXX-XXXX" >
+
+        <LEgend>Sua idade</LEgend>
+        <input type="number" name="idade" placeholder="Digite sua idade">
+
+        <legend>Para onde quer ir</legend>
+        <input type="url" name="linkedin" placeholder="Linkedin URL">
+
+        <legend>Range</legend>
+        <input type="range" name="urgencia" min="0" max="100" step=0.1><!--step é salto na barra-->
+
+        <legend>Checkbox</legend>
+        <input type="checkbox" name="dia-da-semana" value="2">Segunda<br>
+        <input type="checkbox" name="dia-da-semana" value="4">Quarta<br>
+        <input type="checkbox" name="dia-da-semana" value="6">Sexta<br>
+
+        <legend>Radio tipo 1</legend>
+        <input type="radio" name="matutino" value="manha">Manha<br>
+        <input type="radio" name="tarde" value="tarde">tarde<br>
+        <input type="radio" name="noite" value="manha">Noite<br>
+
+        <legend>Radio tipo 2-Forma Correta de fazer</legend>
+        <input type="radio" name="horario" value="manha">Manha<br>
+        <input type="radio" name="horario" value="Tarde">Tarde<br>
+        <input type="radio" name="horario" value="Noite">Noite<br>
+
+        <legend>Deixe uma mensagem</legend>
+        <textarea name="" id="" cols="60" rows="10"></textarea>
+
+        <legend>Qual a sua cidade</legend>
+       
+        <select name="cidade" id="cidade">
+            <option value="">Selecione a cidade</option>
+            <option value="Ceara">Cascavel</option>
+            <option value="Fortaleza">Fortaleza</option>
+            <option value="Eusébio">Eusébio</option>
+            <option value="Aquiraz">Aquiraz</option>
+        </select>
+        <hr>
+
+        <legend>Qual a sua cidade</legend>
+        <input list="cidade" name="cidade">
+        <datalist id="cidade" >
+            <option value="Ceara">Cascavel</option>
+            <option value="Fortaleza">Fortaleza</option>
+            <option value="Eusébio">Eusébio</option>
+            <option value="Aquiraz">Aquiraz</option>
+        </datalist><br>
+        <button type="button">Outra Acção</button><!--E so um botão e nao faz mais nada--><br>
+        <button type="reset">Limpar</button><br>
+        <button type="submit">Enviar</button>
+        
+    </form> 
+           
+</body>
+</html>
